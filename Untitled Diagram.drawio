@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
+  <diagram name="Page-1" id="0lF3TCHJaRQa270VPTUs">
+    <mxGraphModel dx="1734" dy="1473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-4" value="/signup" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aeQEoD4-bBRvYs2o2djn-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-2" value="create user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-5" value="profile access" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-10" value="change password" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aeQEoD4-bBRvYs2o2djn-14" target="aeQEoD4-bBRvYs2o2djn-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-34" value="ADMIN" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aeQEoD4-bBRvYs2o2djn-14" target="aeQEoD4-bBRvYs2o2djn-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-14" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-17" value="/vote" style="endArrow=classic;html=1;rounded=0;exitX=0.716;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeQEoD4-bBRvYs2o2djn-14" target="aeQEoD4-bBRvYs2o2djn-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="310" as="sourcePoint" />
+            <mxPoint x="380" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-20" value="/vote/candidateId" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aeQEoD4-bBRvYs2o2djn-18" target="aeQEoD4-bBRvYs2o2djn-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-22" value="/candidate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aeQEoD4-bBRvYs2o2djn-18" target="aeQEoD4-bBRvYs2o2djn-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-28" value="/votes/count" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aeQEoD4-bBRvYs2o2djn-18" target="aeQEoD4-bBRvYs2o2djn-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-18" value="vote" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-19" value="voters give vote to the candidate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="80" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-21" value="list of candidates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-23" value="user login" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-26" value="/login" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="220" as="sourcePoint" />
+            <mxPoint x="60" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-90" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-27" value="count of votes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-31" value="/profile" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="243" y="560" as="sourcePoint" />
+            <mxPoint x="243" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="123" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-32" value="/profile./password" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="63" y="250" as="sourcePoint" />
+            <mxPoint x="28" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-36" value="/electors" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="391" y="430.0400000000002" as="sourcePoint" />
+            <mxPoint x="621" y="400.0400000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="506" y="430" />
+              <mxPoint x="506" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-38" value="/electors/electorId" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aeQEoD4-bBRvYs2o2djn-33" target="aeQEoD4-bBRvYs2o2djn-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-40" value="/electors/electorId" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="aeQEoD4-bBRvYs2o2djn-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="600" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="460" />
+              <mxPoint x="430" y="520" />
+              <mxPoint x="600" y="520" />
+              <mxPoint x="600" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-33" value="electoral manager" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-35" value="create new elector" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-37" value="update new elector" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQEoD4-bBRvYs2o2djn-39" value="delete elector" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
